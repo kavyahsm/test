@@ -45,3 +45,5 @@ app.listen(port, () => {
     console.log(`server started on ${port}`);
 
 })
+
+console.log("something went wrong")
