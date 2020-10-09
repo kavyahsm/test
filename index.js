@@ -28,6 +28,7 @@ app.use(cookieSession({
 mongoose.connect(config.get('DB_URI'), { useNewUrlParser: true, useUnifiedTopology: true }, () => {
 
     console.log('MongoDb Connected Succefully');
+    console.log('sucessfully')
 })
 
 
@@ -45,5 +46,3 @@ app.listen(port, () => {
     console.log(`server started on ${port}`);
 
 })
-
-console.log("something went wrong")
