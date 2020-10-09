@@ -27,7 +27,7 @@ app.use(cookieSession({
 
 mongoose.connect(config.get('DB_URI'), { useNewUrlParser: true, useUnifiedTopology: true }, () => {
 
-    console.log('sucess')
+    console.log('sucessfully')
 })
 
 
